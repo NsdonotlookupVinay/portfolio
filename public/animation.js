@@ -73,3 +73,32 @@ function starta(){
   observer_for_nav.observe(nav);
 }
 document.onload = starta()
+
+// "---------------------------------------------------------------------------------------"
+
+let ModernCss = document.querySelector('.ModernCss')
+let ModernCssAbout = document.querySelector('.ModernCssAbout')
+let OnFront = 1
+ModernCss.addEventListener("click",function(){
+  if(OnFront==1){
+    // ModernCss.style.transform = "rotateY(180deg)"
+    ModernCss.classList.remove("flex")
+    ModernCss.classList.add("hidden")
+    ModernCssAbout.classList.remove("hidden")
+    ModernCssAbout.classList.add("flex")
+    OnFront = 0
+  }
+  
+})
+ModernCssAbout.addEventListener("click",function(){
+  if(OnFront==0){
+    // ModernCss.style.transform = "rotateY(180deg)"
+    ModernCssAbout.classList.remove("flex")
+    ModernCssAbout.classList.add("hidden")
+    ModernCss.classList.remove("hidden")
+    ModernCss.classList.add("flex")
+    OnFront = 1
+  }
+  
+})
+
