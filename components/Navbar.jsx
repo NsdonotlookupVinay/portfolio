@@ -18,7 +18,7 @@ const Nav = () => {
       <div className=" test cat_container flex font-medium py-2 text-white rounded-lg ">
         <div className="options active bg-primary-300 px-3 py-1 rounded-lg sm:mx-2 mx-1 hover:bg-primary-100 hover:text-primary-200 transition-all">Home</div>
         <div className="options bg-primary-300 px-3 py-1 rounded-lg sm:mx-2 mx-1 hover:bg-primary-100 hover:text-primary-200 transition-all contact-button" href="#contact">Contact</div>
-        <div className="options bg-primary-300 px-3 py-1 rounded-lg sm:mx-2 mx-1 hover:bg-primary-100 hover:text-primary-200 transition-all">CV</div>
+        <div className="options bg-primary-300 px-3 py-1 rounded-lg sm:mx-2 mx-1 hover:bg-primary-100 hover:text-primary-200 transition-all project-button" href="#projects">Projects</div>
         <div className="options bg-primary-300 px-3 py-1 rounded-lg sm:mx-2 mx-1 hover:bg-primary-100 hover:text-primary-200 transition-all">About Me</div>
     </div>
     </div>

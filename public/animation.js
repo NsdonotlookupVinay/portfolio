@@ -7,6 +7,15 @@ function scrollToContactSection() {
 const contactButton = document.querySelector('.contact-button');
 contactButton.addEventListener('click', scrollToContactSection);
 
+function scrollToProjectSection() {
+  const ProjectSection = document.getElementById('projects');
+  ProjectSection.scrollIntoView({ behavior: 'smooth' });
+}
+
+// Add a click event listener to the "Contact" button
+const ProjectButton = document.querySelector('.project-button');
+ProjectButton.addEventListener('click', scrollToProjectSection);
+
 
 const observer = new IntersectionObserver((entries)=>{
     entries.forEach((entry)=>{

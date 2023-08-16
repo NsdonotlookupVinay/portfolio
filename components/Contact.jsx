@@ -24,7 +24,7 @@ const Contact = () => {
   return (
     <div id="contact" className='contact-back text-white flex flex-col justify-center items-center bg-primary-300 py-20 sm:px-20 px-2 w-full h-screen'>
         <div className="text-white font-semibold text-4xl text-center submited hidden transition-all">Submited</div>
-        <h4 className='hideit font-semibold sm:text-2xl text-4xl mb-10'>Contact</h4>
+        <h4 className='hideit font-semibold sm:text-2xl text-4xl mb-10'>Contact &#9995;</h4>
         <div className='hideit text-xl font-medium w-3/4 flex justify-between sm:flex-row flex-col'>
             <input type="text" name='name' id='name' placeholder='Name' className='border-0 rounded-lg px-4 py-2 bg-primary-400  outline-none w-full mr-2 sm:mb-0 mb-2' required/>
             <input type="email" name='email' id='email' placeholder='Email' className='border-0 rounded-lg px-4 py-2 bg-primary-400 outline-none w-full' required/>
