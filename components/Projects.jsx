@@ -25,8 +25,8 @@ const Projects = () => {
                 </div>
             </div>
             <div className='hidden ModernCssAbout mx-16 sm:h-80 h-96 tools CatGO justify-around items-center sm:flex-row flex-col bg-cyan-300 transition-all rounded-lg'>
-                <div className='sm:w-1/3 w-auto sm:border-r-2 border-b-2 pb-10 border-slate-200'>
-                <div className='ToolsUsed text-xl font-semibold tracking-normal text-black drop-shadow-sm'>Tool's Used 🛠️
+                <div className='sm:w-1/3 w-auto sm:border-r-2 border-r-0 sm:border-b-0 border-b-2 pb-10 border-slate-200'>
+                <div className='ToolsUsed text-xl font-semibold tracking-normal text-black'>Tool's Used 🛠️
                 <div className='ToolsUsedContainer'>
                     <ul className='text-base font-normal tracking-normal text-gray-800 mt-2'>
                         <li>NextJs</li>
